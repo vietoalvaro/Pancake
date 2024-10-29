@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vampire Mystique</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="logo">VampireLair</a>
+            <ul class="nav-links">
+                <li><a href="#story">The Legend</a></li>
+                <li><a href="#powers">Dark Powers</a></li>
+                <li><a href="#join">Join the Coven</a></li>
+            </ul>
+            <a href="#blood-oath" class="cta-button">Take the Blood Oath</a>
+        </nav>
+        <div class="header-content">
+            <h1>Enter the Shadows</h1>
+            <p>Embrace the eternal night, where mysteries of the vampire world unfold.</p>
+            <a href="#mystery" class="primary-button">Discover the Mystery</a>
+        </div>
+    </header>
+</body>
+</html>
