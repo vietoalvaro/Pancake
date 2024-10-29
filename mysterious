@@ -26,3 +26,96 @@
     </header>
 </body>
 </html>
+
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Crimson Text', serif;
+}
+
+/* Background */
+body {
+    background-color: #1a1a1a; /* Dark background for a mysterious vibe */
+    color: #f2f2f2;
+}
+
+/* Header Styling */
+.header {
+    height: 100vh;
+    background: url('vampire-bg.jpg') center center/cover no-repeat; /* A dark, atmospheric background image */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #e0b0ff; /* Soft lavender text color */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e0b0ff;
+    text-transform: uppercase;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: #e0b0ff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background-color: #8b0000; /* Blood red button */
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #660000;
+}
+
+.header-content h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.header-content p {
+    font-size: 20px;
+    max-width: 600px;
+    margin: 0 auto 20px;
+}
+
+.primary-button {
+    padding: 10px 25px;
+    background-color: #8b0000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.primary-button:hover {
+    background-color: #660000;
+}
+
