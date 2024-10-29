@@ -17,3 +17,25 @@ for row in matrix1:
 print("\nMatrix 2:")
 for row in matrix2:
     print(row)
+
+import numpy as np
+
+# Define two matrices
+A = np.array([[1, 2], [3, 4]])
+B = np.array([[5, 6], [7, 8]])
+
+# Add the matrices
+add_matrices = A + B
+print("Addition:\n", add_matrices)
+
+# Subtract the matrices
+subtract_matrices = A - B
+print("Subtraction:\n", subtract_matrices)
+
+# Multiply the matrices (element-wise multiplication)
+multiply_matrices = A * B
+print("Multiplication (element-wise):\n", multiply_matrices)
+
+# Divide the matrices (element-wise division)
+divide_matrices = A / B
+print("Division (element-wise):\n", divide_matrices)
